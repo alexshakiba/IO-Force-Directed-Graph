@@ -1,0 +1,107 @@
+svg {
+  border-color: #F0F0F0;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis line, .axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.container {
+  padding-top: 20px;
+  margin: auto;
+}
+
+.links line {
+  stroke: #999;
+  /* stroke-opacity: 0.6; */
+}
+
+
+.textLabels {
+  font-family: sans-serif;
+  font-size: 8px;
+  text-anchor: middle;
+  fill: #555;
+
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: left;
+    width: 200px;
+    height: 40px;
+    padding: 2px;
+    font: 12px sans-serif;
+    /* background: #E8E8E8; */
+    /* border-color: #A9A9A9; */
+    /* border-width: 1px; */
+    /* border-style: solid; */
+    /* border-radius: 3px; */ */
+    /* pointer-events: none;
+}
+/*
+div.tooltip {
+    position: absolute;
+    background-color: #F8F8F8;
+    border-color: 	#E8E8E8;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+
+    font: 13px;
+    padding-top: 7px;
+    padding-left: 10px;
+    text-align: left;
+    line-height: 1.5;
+    /* font-weight: bold; */
+    color: #303030 ;
+} */
+
+
+
+/* THE SLIDER */
+/* Slide Data */
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.my-slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 400px; /* Full-width */
+  height: 7px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  border-radius: 5px;
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #004de6;
+  cursor: pointer;
+}
